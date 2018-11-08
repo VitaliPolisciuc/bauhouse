@@ -1,0 +1,117 @@
+body{
+  background-color: #272727;
+  font-family: arial;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color:#cee002;
+}
+nav.container{
+  height: 100px;
+}
+
+nav.container li{
+  float: left;
+}
+.menu > :first-child > :first-child{ /* border*/
+  border-right: 1px solid white;
+  height: 55px;
+  position: relative;
+  top: 20px;
+  right: 315px;
+}
+#logo{
+  width: 33px;
+  height: 33px;
+  border: 7px solid white;
+  background-color: #131642;
+  position: relative;
+  top:25px;
+  left:30px;
+
+}
+#cubiclogo{
+  width: 13px;
+  height: 15px;
+  background-color: #131642;
+  position: relative;
+  transform: skewX(-50deg);
+  top: 13px;
+  right: 10px;
+}
+.container{
+  margin-left: 70px;
+  margin-right: 70px;
+  background-color: #131642;
+}
+.brend{
+  float: left;
+}
+.menu{
+  float: right;
+}
+.brend > :last-child > a{ /* callus */
+  position: relative;
+  top:40px;
+  left: 500px;
+}
+.brend > :last-child > a  > :first-child{ /* callus */
+ color: #6c6e89;
+ position: relative;
+ right: 5px;
+}
+
+.logo > :nth-child(2){ /*bauhouse*/
+  position: relative;
+  font-size: 27px;
+  left: 90px;
+  bottom:23px;
+}
+.logo > :nth-child(3){ /* architector */
+  position: relative;
+  font-size: 17px;
+  font-weight: lighter;
+  right:27px;
+  bottom:2px;
+  color: #6c6e89;
+}
+
+.menu > :first-child > a {
+  position: relative;
+  right: 237px;
+  bottom: 19px;
+  font-size: 25px;
+}
+.menu > :nth-child(2) > a{
+  position: relative;
+  right: 220px;
+  top: 35px;
+  font-size: 25px;
+}
+.menu > :nth-child(3) > a{
+  position: relative;
+  right: 200px;
+  top: 35px;
+  font-size: 25px;
+}
+.menu > :nth-child(4) > a{
+  position: relative;
+  right: 180px;
+  top: 35px;
+  font-size: 25px;
+}
+.menu > :nth-child(5) > a{
+  position: relative;
+  right: 160px;
+  top: 35px;
+  font-size: 25px;
+}
+.menu > :nth-child(6) > a{
+  position: relative;
+  right: 60px;
+  top: 35px;
+  font-size: 25px;
+}
